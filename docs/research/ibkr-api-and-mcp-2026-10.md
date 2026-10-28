@@ -22,10 +22,10 @@
 |---|---|---|---|---|
 | code-rabi/interactive-brokers-mcp [11] | 227 | 2026-07-21 | Client Portal Gateway (bundled), browser login | "Alpha". Places orders. Optional TOTP auto-2FA, a code generated from a stored secret; the README warns this is risky. |
 | rcontesti/IB_MCP [12] | 141 | 2025-10-23 | Client Portal Gateway in Docker | Manual browser login, `/tickle` keep-alive |
-| seriallazer/ibkr-mcp-server | 65 | 2026-03-19 | TWS API | — |
-| ArjunDivecha/ibkr-mcp-server | 35 | archived | TWS API | — |
+| seriallazer/ibkr-mcp-server | 65 | 2026-03-19 | not checked | — |
+| ArjunDivecha/ibkr-mcp-server | 35 | archived | TWS API, per snippet [S] | Places orders |
 | Hellek1/ib-mcp [13] | 19 | 2026-10-01 | ib_async → TWS/Gateway | Read-only |
-| tivojn/ibkr-mcp-guard [7] | new | 2026-10-07 | IBKR's **official** MCP | Blocks order submission, except on paper accounts |
+| tivojn/ibkr-mcp-guard [7] | not checked | 2026-10-07 | IBKR's **official** MCP | Blocks order submission, except on paper accounts |
 
 **Does any MCP route avoid the gateway and 2FA?**
 
