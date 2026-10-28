@@ -13,6 +13,8 @@ Every new question goes here first, so nothing is lost and nothing has to be hel
 | Q5 | What is trading on margin, and what is a margin call? | later | Own topic, after the bot's v1 |
 | Q6 | What is an option? Calls, puts, "the right but not the obligation", and what options trading is | later | Own topic, after margin |
 | Q7 | Dilution: how does it work in practice, and how do I spot it? | later | Introduced in lesson 4; not yet practised |
+| Q8 | Can I make money picking individual stocks (e.g. the Palantir boom)? | now | Answered in chat 28 Oct; a lesson on why most stocks lose and a few win everything (Bessembinder) |
+| Q9 | For the goal of making more money, is an investor bot actually a good idea? | now | Answered in chat 28 Oct; decision pending (project goal) |
 
 ## Answered
 
