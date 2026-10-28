@@ -1,0 +1,36 @@
+/* Shared stylesheet for every lesson and reference page. */
+:root {
+  --bg: #fffff8; --text: #111; --muted: #555; --rule: #ddd;
+  --accent: #8a3b12; --ok: #1f6f3a; --bad: #9b1c1c; --box: #f4f1e6;
+}
+@media (prefers-color-scheme: dark) {
+  :root { --bg: #151515; --text: #e8e6df; --muted: #a8a59c; --rule: #333;
+          --accent: #e0915f; --ok: #6fcf8e; --bad: #f08a8a; --box: #222019; }
+}
+* { box-sizing: border-box; }
+body { background: var(--bg); color: var(--text); margin: 0;
+       font: 19px/1.6 Georgia, "Iowan Old Style", "Palatino Linotype", serif; }
+main { max-width: 38rem; margin: 0 auto; padding: 2.5rem 1rem 4rem; }
+h1 { font-weight: 400; font-size: 2rem; line-height: 1.2; margin: 0 0 .25rem; }
+h2 { font-weight: 400; font-style: italic; font-size: 1.35rem; margin: 2.2rem 0 .5rem; }
+.kicker { color: var(--muted); font-size: .9rem; letter-spacing: .04em; text-transform: uppercase; }
+.idea { border-left: 3px solid var(--accent); padding: .2rem 0 .2rem 1rem; margin: 1.5rem 0; font-size: 1.1rem; }
+table { border-collapse: collapse; width: 100%; margin: 1rem 0; font-size: .95rem; }
+th, td { border-bottom: 1px solid var(--rule); padding: .4rem .5rem; text-align: left; vertical-align: top; }
+th { font-weight: 600; }
+.box { background: var(--box); padding: .8rem 1rem; border-radius: 4px; margin: 1.2rem 0; }
+a { color: var(--accent); }
+nav.lessons { display: flex; justify-content: space-between; gap: 1rem; margin-top: 3rem;
+              padding-top: 1rem; border-top: 1px solid var(--rule); font-size: .9rem; }
+.quiz { margin: 1.5rem 0; }
+.quiz p.q { font-weight: 600; margin-bottom: .5rem; }
+.quiz button { display: block; width: 100%; text-align: left; margin: .35rem 0; padding: .55rem .8rem;
+               font: inherit; font-size: .95rem; color: var(--text); background: transparent;
+               border: 1px solid var(--rule); border-radius: 4px; cursor: pointer; }
+.quiz button:hover { border-color: var(--accent); }
+.quiz button.right { border-color: var(--ok); color: var(--ok); }
+.quiz button.wrong { border-color: var(--bad); color: var(--bad); }
+.quiz .why { display: none; color: var(--muted); font-size: .92rem; margin-top: .4rem; }
+.quiz.answered .why { display: block; }
+footer { color: var(--muted); font-size: .85rem; margin-top: 2rem; }
+@media print { .quiz button { border-color: #999; } nav.lessons { display: none; } }

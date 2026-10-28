@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>How a price moves</title>
+<link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+<main>
+<p class="kicker">Lesson 3 · Prices</p>
+<h1>How a price moves</h1>
+
+<p class="idea">The price only changes when a trade happens. A trade happens when someone accepts the best price on the other side of the queue.</p>
+
+<h2>Three different numbers</h2>
+<table>
+<tr><th>Number</th><th>What it is</th><th>When it changes</th></tr>
+<tr><td>Profit per share</td><td>Profit ÷ number of shares</td><td>When the company earns more or less. No trading needed.</td></tr>
+<tr><td>Dividend</td><td>Cash actually paid per share</td><td>When the company decides to pay. No trading needed.</td></tr>
+<tr><td>Price</td><td>The price of the last trade</td><td><strong>Only when a trade happens</strong></td></tr>
+</table>
+<p>If the shop's profit doubles and nobody trades, the price doesn't move at all. Nothing updates it automatically.</p>
+
+<h2>The two queues</h2>
+<table>
+<tr><th>Want to sell (asking)</th><th>Want to buy (offering)</th></tr>
+<tr><td>Ali $2,600</td><td>Dana $2,500</td></tr>
+<tr><td>Ben $2,700</td><td>Eve $2,400</td></tr>
+<tr><td>Chen $2,800</td><td></td></tr>
+</table>
+<p>The best offer ($2,500, the <strong>bid</strong>) doesn't reach the cheapest asking price ($2,600, the <strong>ask</strong>), so no trade happens. The last trade was $2,550, so that's the price your app shows.</p>
+
+<h2>News arrives: profit doubled</h2>
+<p>Frank wants a piece <em>now</em>, so he accepts Ali's $2,600. That's a trade, and the price is now $2,600. Grace buys from Ben at $2,700. Hassan buys from Chen at $2,800. Owners who read the news raise their asking prices or stop selling.</p>
+<p><strong>That's how a price goes up:</strong> more people want to buy than to sell, so eager buyers have to accept higher and higher asking prices. Bad news works the same way in reverse.</p>
+
+<h2>Where profit comes in</h2>
+<p>The price doesn't "know" about profit. The <em>people</em> do. They won't sell at the old price once a piece earns more. "The market" is just everyone trading right now. It's a crowd, not a mind, and crowds can be wrong for a long time. Day to day, prices are mostly people guessing about people. Over years, profits pull hardest, and takeovers stop a price drifting far below what a business earns.</p>
+<p>An <strong>order</strong> is an instruction to buy or sell. A <strong>fill</strong> is an order that actually happened.</p>
+
+<h2>Check yourself</h2>
+<div class="quiz" data-answer="2">
+  <p class="q">1. Using the queues above, Eve wants a piece right now. What does she pay?</p>
+  <button>$2,500</button>
+  <button>$2,550</button>
+  <button>$2,600</button>
+  <p class="why">To buy right now, she has to accept the cheapest asking price, Ali's $2,600.</p>
+</div>
+<div class="quiz" data-answer="0">
+  <p class="q">2. The shop's profit doubles overnight, but nobody trades. The price…</p>
+  <button>Stays where it was</button>
+  <button>Doubles automatically overnight too</button>
+  <button>Falls until someone trades</button>
+  <p class="why">The price is just the last trade. It only moves when a new trade happens.</p>
+</div>
+<div class="quiz" data-answer="1">
+  <p class="q">3. After bad news, many owners want to sell right now. The next trades happen…</p>
+  <button>At higher prices than before</button>
+  <button>At lower prices than before</button>
+  <button>At exactly the same price</button>
+  <p class="why">Eager sellers have to accept lower and lower offers in the buying queue.</p>
+</div>
+
+<nav class="lessons"><a href="0002-how-owning-pays-you.html">← How owning pays you</a><a href="0004-pe-ratio.html">Next: the P/E ratio →</a></nav>
+<footer>Stuck, or a new question popped up? Ask Claude. Park new questions in <code>learn/QUESTIONS.md</code> so nothing gets lost. Cheat sheet: <a href="../reference/how-shares-work.html">how shares work</a>.</footer>
+</main>
+<script src="../assets/quiz.js"></script>
+</body>
+</html>
