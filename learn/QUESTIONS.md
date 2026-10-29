@@ -35,3 +35,4 @@ Every new question goes here first, so nothing is lost and nothing has to be hel
 | What does P/E mean, and why does P/E 20 mean "20 years of profit"? | [4](lessons/0004-pe-ratio.html) |
 | Is P/E an indicator of price? Of growth? | [4](lessons/0004-pe-ratio.html) (no, and no) |
 | Is a company with no dividends risky? What does "pay you back" mean? | [4](lessons/0004-pe-ratio.html) |
+| GOOGL fell after results: why, if the business grew? Is it a discount? Should I average down? | Chat 28–29 Oct (expectations, "miss", averaging down); worth its own lesson |
