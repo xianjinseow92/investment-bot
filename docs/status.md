@@ -39,7 +39,8 @@ Phase 4, grilling with docs (phases 0–3 folded into it, owner as the client). 
 | D13 | Buy only; no margin, short selling or options in version 1 | proposed |
 | D14 | Project reframed (29 Oct): the owner already invests automatically each month in a global index fund, so the bot is **not** the autopilot. It is a small, paper-only lab: a few strategies run on paper against that index fund, a daily Telegram message, and guardrails for the owner's small individual-stock slice. Also a portfolio project for the owner | agreed |
 | D15 | Time box: version 1 by 7 Dec 2026 (the owner starts a new job then) | proposed |
-| D16 | How the work is split between the owner and Claude, and which language | open |
+| D16 | Work split: the owner writes the core logic test-first with coaching (strategy rules, comparison with the benchmark, risk checks); Claude builds the plumbing (project skeleton, data, broker, messages, deployment) and the owner reviews it. Shifts toward the owner as confidence grows. About 5 hours a week from the owner | agreed |
+| D17 | Language: C# on .NET, because the owner's new job uses .NET | agreed |
 
 ## Open questions
 
